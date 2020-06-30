@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+
+.container{
+    background-image:url(images/bg-desktop.png);
+    background-repeat:no-repeat;
+    background-position:center bottom;
+    width: 1440px;
+    height: 100vh;
+    margin:  auto;
+    background-color:hsl(229, 57%, 11%) ;
+
+}
+.main{
+    color: white;
+    width: 400px;
+    height: 200px;
+    border: red solid 2px;
+    padding: 40px 60px 40px 40px;
+    background-color:hsl(228, 56%, 26%);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 100px;
+}
+.icono{
+   padding:15px;
+    background-color:hsl(229, 57%, 11%) ;
+    display: inline-block;
+    margin: 20px 10px;
+    border-radius: 10px;
+    
+}
