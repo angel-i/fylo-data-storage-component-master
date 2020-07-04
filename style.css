@@ -5,6 +5,7 @@
   }
 body{
     font-family: 'Raleway', sans-serif;
+    font-size: 14px;
 }
 
 .container{
@@ -41,6 +42,9 @@ body{
     border-radius: 10px;
     
 }
+#brand{
+    margin-left: 15px;
+}
 
 .right-column{
 width: 600px;
@@ -49,6 +53,7 @@ background-color:hsl(228, 56%, 26%);
 margin-left: 35px;
 padding:40px;
 border-radius: 15px;
+font-weight: 400;
 
 }
 .right-column-text{
