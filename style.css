@@ -3,29 +3,35 @@
     margin: 0;
     padding: 0;
   }
-
+body{
+    font-family: 'Raleway', sans-serif;
+}
 
 .container{
     background-image:url(images/bg-desktop.png);
     background-repeat:no-repeat;
     background-position:center bottom;
     width: 1440px;
-    height: 100vh;
+    height: 80vh;
     margin:  auto;
     background-color:hsl(229, 57%, 11%) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 .main{
     color: white;
     width: 400px;
     height: 200px;
-    border: red solid 2px;
+  
     padding: 40px 60px 40px 40px;
     background-color:hsl(228, 56%, 26%);
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
     border-top-left-radius: 15px;
     border-top-right-radius: 100px;
+    
 }
 .icono{
    padding:15px;
@@ -34,4 +40,60 @@
     margin: 20px 10px;
     border-radius: 10px;
     
+}
+
+.right-column{
+width: 600px;
+height: 150px;
+background-color:hsl(228, 56%, 26%);
+margin-left: 35px;
+padding:40px;
+border-radius: 15px;
+
+}
+.right-column-text{
+
+    color: white;
+    
+}
+.text-right{
+    text-align: end;
+}
+/* barra carga*/
+.progress {
+	background-color: hsl(229, 57%, 11%);
+	border-radius: 20px;
+	position: relative;
+	margin: 15px 0;
+	height: 15px;
+	width: 500px;
+}
+
+.progress-done {
+    background: linear-gradient(to left, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+   /* background: linear-gradient(to left, #F2709C, #FF9472);*/
+	/*box-shadow: 0 3px 3px -5px #F2709C, 0 2px 5px #F2709C;*/
+	border-radius: 20px;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	width: 0;
+	opacity: 0;
+	transition: 1s ease ;
+}
+.square{
+    padding: 20px;
+    background-color: white;
+    color: black;
+    width: 203px;
+    text-transform: uppercase;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.big-number{
+    font-size: 50px;
 }
