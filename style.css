@@ -142,7 +142,9 @@ svg {
 }
 
 @media (max-width: 500px) {
-    
+  .main {
+    text-align: left;
+  }
     .main_img {
        background-image:  url(images/bg-mobile.png);
        background-repeat: no-repeat;
@@ -170,6 +172,8 @@ svg {
     margin-right: 39px;
     text-align: center;
     
+    padding: 29px;
+    
     
   }
   .square{
@@ -178,16 +182,19 @@ svg {
   .square-container {
    
     top: 147px;
-    left: 110px;
+    left: 67px;
   }
   .gigas {
-    word-spacing: 240px;
+    word-spacing: 169px;
   }
   .progress {
-    width: 351px;
+   width:  264px;
     height: 20px;
   }
   #brand{
     margin-left: 29px;
+  }
+  .right-column-text {
+   width:  261px;
   }
 }
